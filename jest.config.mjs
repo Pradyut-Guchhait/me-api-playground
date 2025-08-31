@@ -1,5 +1,1 @@
-
-export default {
-  testEnvironment: 'node',
-  roots: ['<rootDir>/backend/__tests__'],
-};
+export default { testEnvironment: 'node', roots: ['<rootDir>/backend/__tests__'] };

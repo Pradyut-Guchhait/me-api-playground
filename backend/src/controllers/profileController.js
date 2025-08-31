@@ -48,7 +48,6 @@ export const searchAll = async (req, res) => {
   if (!p) return res.json([]);
 
   const hits = [];
-
   const addHit = (type, data, score) => hits.push({ type, score, data });
 
   const textFields = [p.name, p.headline, p.summary];

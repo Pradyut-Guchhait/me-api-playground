@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Me‑API Playground</title>
+  <title>Me-API Playground</title>
   <link rel="stylesheet" href="./styles.css"/>
 </head>
 <body>
   <header>
-    <h1>Me‑API Playground</h1>
+    <h1>Me-API Playground</h1>
     <p class="subtitle">Search projects by skill, view profile, and test the API</p>
   </header>
 
@@ -17,7 +17,7 @@
     <section class="card">
       <h2>Your Profile</h2>
       <button id="loadProfile">Load Profile</button>
-      <pre id="profileOut">Click "Load Profile"…</pre>
+      <div id="profileOut" class="output">Click "Load Profile"…</div>
     </section>
 
     <section class="card">
@@ -32,13 +32,13 @@
         <input id="q" placeholder="e.g. mongo"/>
         <button id="searchAll">Search All</button>
       </div>
-      <pre id="searchOut"></pre>
+      <div id="searchOut" class="output"></div>
     </section>
 
     <section class="card">
       <h2>Top Skills</h2>
       <button id="topSkills">Get Top 5</button>
-      <pre id="skillsOut"></pre>
+      <div id="skillsOut" class="output"></div>
     </section>
   </main>
 

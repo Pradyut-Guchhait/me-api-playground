@@ -11,16 +11,15 @@ import { apiLimiter } from './middleware/rateLimiter.js';
 
 dotenv.config();
 const app = express();
+
 // Enable trust proxy for correct client IPs behind Render/Heroku etc.
 if (process.env.NODE_ENV === 'production') {
   app.set('trust proxy', 1);
 }
+
 // Configure CORS (lock down in production via CORS_ORIGIN)
 const allowedOrigin = process.env.CORS_ORIGIN || '*';
-app.use(cors({
-  origin: allowedOrigin,
-  credentials: false,
-}));
+app.use(cors({ origin: allowedOrigin, credentials: false }));
 
 app.use(express.json());
 app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'));
@@ -50,3 +49,5 @@ mongoose.connect(MONGODB_URI)
     console.error('MongoDB connection error:', err);
     process.exit(1);
   });
+
+export default app;
