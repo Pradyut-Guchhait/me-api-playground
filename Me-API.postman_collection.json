@@ -1,0 +1,50 @@
+{
+  "info": {
+    "name": "Me API Playground",
+    "_postman_id": "me-api",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/health"
+      }
+    },
+    {
+      "name": "Get Profile",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/api/profile"
+      }
+    },
+    {
+      "name": "Top Skills",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/api/skills/top?limit=5"
+      }
+    },
+    {
+      "name": "Projects by Skill",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/api/projects?skill=node.js"
+      }
+    },
+    {
+      "name": "Search",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/api/search?q=node"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base",
+      "value": "http://localhost:4000"
+    }
+  ]
+}

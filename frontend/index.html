@@ -1,0 +1,52 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Me‑API Playground</title>
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>Me‑API Playground</h1>
+    <p class="subtitle">Search projects by skill, view profile, and test the API</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Your Profile</h2>
+      <button id="loadProfile">Load Profile</button>
+      <pre id="profileOut">Click "Load Profile"…</pre>
+    </section>
+
+    <section class="card">
+      <h2>Search</h2>
+      <div class="row">
+        <label>Skill:</label>
+        <input id="skill" placeholder="e.g. node.js"/>
+        <button id="searchBySkill">Projects by Skill</button>
+      </div>
+      <div class="row">
+        <label>Query:</label>
+        <input id="q" placeholder="e.g. mongo"/>
+        <button id="searchAll">Search All</button>
+      </div>
+      <pre id="searchOut"></pre>
+    </section>
+
+    <section class="card">
+      <h2>Top Skills</h2>
+      <button id="topSkills">Get Top 5</button>
+      <pre id="skillsOut"></pre>
+    </section>
+  </main>
+
+  <footer>
+    <a href="/health" target="_blank">/health</a> ·
+    <a href="/api/profile" target="_blank">/api/profile</a>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

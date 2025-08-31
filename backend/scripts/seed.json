@@ -1,0 +1,78 @@
+{
+  "name": "Pradyut Guchhait",
+  "email": "pradyutguchhait04@gmail.com",
+  "headline": "Backend/Node.js Developer",
+  "summary": "I build clean REST APIs, wire them to MongoDB, and ship small UIs for demos.",
+  "skills": [
+    {
+      "name": "Node.js",
+      "level": 9
+    },
+    {
+      "name": "JavaScript",
+      "level": 9
+    },
+    {
+      "name": "MongoDB",
+      "level": 8
+    },
+    {
+      "name": "Express",
+      "level": 8
+    },
+    {
+      "name": "HTML",
+      "level": 7
+    },
+    {
+      "name": "CSS",
+      "level": 6
+    }
+  ],
+  "projects": [
+    {
+      "title": "Me\u2011API Playground",
+      "description": "This assessment project: Node + Mongo + HTML/CSS frontend.",
+      "links": [],
+      "skills": [
+        "Node.js",
+        "MongoDB",
+        "Express"
+      ]
+    },
+    {
+      "title": "Portfolio Site",
+      "description": "A static site showing my work and contact info.",
+      "links": [
+        "https://example.com"
+      ],
+      "skills": [
+        "HTML",
+        "CSS"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "role": "Backend Developer",
+      "org": "ProcessVenue",
+      "start": "2023",
+      "end": "Present",
+      "summary": "APIs and integrations."
+    }
+  ],
+  "education": [
+    {
+      "school": "Your University",
+      "degree": "B.Tech",
+      "start": "2019",
+      "end": "2023"
+    }
+  ],
+  "links": {
+    "github": "https://github.com/pradyutguchhait04",
+    "linkedin": "https://www.linkedin.com/in/pradyut-guchhait",
+    "portfolio": "",
+    "website": ""
+  }
+}
