@@ -245,5 +245,5 @@ npm test -- --watch
 
 ## 📄 Resume
 
-**[View My Resume →]([https://pradyutguchhait.netlify.app](https://drive.google.com/file/d/1DV_2985hOk1_wP75H8sm4lzpOCswLInN/view?usp=drive_link))**
+**[View My Resume →](https://drive.google.com/file/d/1DV_2985hOk1_wP75H8sm4lzpOCswLInN/view?usp=drive_link)**
 
