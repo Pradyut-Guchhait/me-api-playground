@@ -1,78 +1,77 @@
 {
   "name": "Pradyut Guchhait",
   "email": "pradyutguchhait04@gmail.com",
-  "headline": "Backend/Node.js Developer",
-  "summary": "I build clean REST APIs, wire them to MongoDB, and ship small UIs for demos.",
+  "headline": "Full Stack Web Developer | MERN | IoT Enthusiast",
+  "summary": "Full Stack Developer (MERN) and IoT Enthusiast with expertise in JavaScript, React.js, Node.js, Express, MongoDB, Python, and IoT Systems. Skilled in building responsive, scalable web applications, REST APIs, and cloud-based deployments. Experienced in networking (CCNA, Cisco labs) and AI integration (TensorFlow, OpenCV). Passionate about delivering clean, efficient code and solving real-world problems.",
   "skills": [
-    {
-      "name": "Node.js",
-      "level": 9
-    },
-    {
-      "name": "JavaScript",
-      "level": 9
-    },
-    {
-      "name": "MongoDB",
-      "level": 8
-    },
-    {
-      "name": "Express",
-      "level": 8
-    },
-    {
-      "name": "HTML",
-      "level": 7
-    },
-    {
-      "name": "CSS",
-      "level": 6
-    }
+    { "name": "Node.js"},
+    { "name": "JavaScript"},
+    { "name": "MongoDB"},
+    { "name": "Express.js"},
+    { "name": "React.js"},
+    { "name": "Python"},
+    { "name": "HTML"},
+    { "name": "CSS"},
+    { "name": "C"},
+    { "name": "C++"},
+    { "name": "Java"}
   ],
   "projects": [
     {
-      "title": "Me\u2011API Playground",
-      "description": "This assessment project: Node + Mongo + HTML/CSS frontend.",
-      "links": [],
-      "skills": [
-        "Node.js",
-        "MongoDB",
-        "Express"
-      ]
+      "title": "MERN Expense Tracker",
+      "description": "Full-stack web app for managing expenses, setting monthly budgets, and visualizing analytics. Implemented JWT authentication, role-based access, and secure CRUD operations.",
+      "links": ["https://github.com/Pradyut-Guchhait/Expense-Tracker-MERN-"],
+      "skills": ["MongoDB", "Express.js", "React.js", "Node.js", "Recharts"]
     },
     {
-      "title": "Portfolio Site",
-      "description": "A static site showing my work and contact info.",
-      "links": [
-        "https://example.com"
-      ],
-      "skills": [
-        "HTML",
-        "CSS"
-      ]
+      "title": "Network Topology Simulator",
+      "description": "Automated topology generation from router/switch configs with validation of IP, VLAN, MTU, and loops. Multithreaded simulation for Day-1 discovery and Day-2 link failure impact analysis.",
+      "links": ["https://github.com/Pradyut-Guchhait/Network_Simulator"],
+      "skills": ["Python", "Multithreading", "IPC", "Matplotlib", "PyTest"]
+    },
+    {
+      "title": "BannerCraft: Promotional Banner Generation Using AI",
+      "description": "AI web app for automated banner creation via product detection from images. Flask backend with real-time rendering; 70% faster generation. Custom TensorFlow object detection model for high accuracy.",
+      "links": [],
+      "skills": ["Python", "Flask", "OpenCV", "TensorFlow"]
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "Responsive single-page portfolio with interactive UI, hosted on Netlify.",
+      "links": ["https://pradyutguchhait.netlify.app"],
+      "skills": ["HTML", "CSS", "JavaScript"]
     }
   ],
   "work": [
     {
-      "role": "Backend Developer",
-      "org": "ProcessVenue",
-      "start": "2023",
-      "end": "Present",
-      "summary": "APIs and integrations."
+      "role": "Network Technician Trainee",
+      "org": "Cisco Networking Academy (Virtual Lab Environment)",
+      "start": "2025-06",
+      "end": "2025-07",
+      "summary": "Configured and troubleshot LAN/WAN networks using Cisco Packet Tracer. Built a Network Simulator that auto-generates topologies from router/switch configs. Implemented IP addressing, subnetting, and routing protocols (RIP, OSPF)."
     }
   ],
   "education": [
     {
-      "school": "Your University",
-      "degree": "B.Tech",
-      "start": "2019",
-      "end": "2023"
+      "school": "Manipal University Jaipur",
+      "degree": "B.Tech in Computer Science and Engineering (IoT and IS)",
+      "start": "2022",
+      "end": "Present"
+    },
+    {
+      "school": "Delhi Public School, Jaipur",
+      "degree": "Class 12 (Higher Secondary)",
+      "end": "2022"
+    },
+    {
+      "school": "Delhi Public School, Jaipur",
+      "degree": "Class 10 (Senior Secondary)",
+      "end": "2020"
     }
   ],
   "links": {
-    "github": "https://github.com/pradyutguchhait04",
-    "linkedin": "https://www.linkedin.com/in/pradyut-guchhait",
-    "portfolio": "",
-    "website": ""
+    "github": "https://github.com/Pradyut-Guchhait",
+    "linkedin": "https://www.linkedin.com/in/pradyut-guchhait-579b8a2b3",
+    "portfolio": "https://pradyutguchhait.netlify.app"
   }
 }
