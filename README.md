@@ -1,7 +1,9 @@
 # ME-API Playground
 
 A RESTful API service for managing personal profiles, skills, projects, and work experience. Built with Node.js, Express, and MongoDB.
-**[Live Hosted Project URL →](https://me-api-playground-o9hp.onrender.com)**
+
+- **[Live Hosted Project URL →](https://me-api-playground-o9hp.onrender.com)**
+
 
 ## 🏗️ Architecture
 
